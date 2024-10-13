@@ -24,16 +24,16 @@ A collection of projects that might be interesting to run on a router
 - [Caddy](https://github.com/caddyserver/caddy)
 
 ### Network:
-- [cloudflared](https://github.com/cloudflare/cloudflared)
-- [freeradius-server](https://github.com/FreeRADIUS/freeradius-server)
+- [Cloudflared](https://github.com/cloudflare/cloudflared)
+- [Freeradius-server](https://github.com/FreeRADIUS/freeradius-server)
 
 ### DNS: 
 - [Pi-hole](https://github.com/pi-hole/docker-pi-hole)
 - [AdGuardHome](https://github.com/AdguardTeam/AdGuardHome)
-- [blocky](https://github.com/0xERR0R/blocky)
+- [Blocky](https://github.com/0xERR0R/blocky)
 
 ### Misc:
-- [openspeedtest](https://github.com/openspeedtest/Speed-Test)
+- [Openspeedtest](https://github.com/openspeedtest/Speed-Test)
 
 
 
@@ -41,6 +41,10 @@ A collection of projects that might be interesting to run on a router
 
 > [!NOTE]  
 > External disk is highly recommended (formatting USB on ext4)
+
+![usb-mikrotik](https://akmalov.com/assets/images/mikrotik-usb-af1bf381a7e61ad2f2f9e498edf730df.jpg)
+
+![usb-mikrotik-2](https://akmalov.com/assets/images/mikrotik-usb-disk-1fba13d2e18c6927ffc0e71ac9dc181d.png)
 
 
 > [!WARNING]  
