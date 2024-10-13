@@ -2,8 +2,7 @@
 
 MikroTik's implementation of Linux containers [RouterOS](https://help.mikrotik.com/docs/display/ROS/Container)
 
-Requirements
-Container package is compatible with arm arm64 and x86 architectures.
+> Container package is compatible with arm arm64 and x86 architectures.
 
 There is a device for tests **Mikrotik hap ax3**:
 - Architecture: ARM 64bit
