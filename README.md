@@ -10,7 +10,7 @@ There is a device for tests **Mikrotik hap ax3**:
 - Size of RAM: 1 GB
 - Storage size: 128 MB
 
-RAM total, 1Gb (of which about 650Mb is free)
+RAM total - 1Gb (of which about 650Mb is free)
 
 
 ## Collection of containers for RouterOS
