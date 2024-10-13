@@ -17,11 +17,36 @@ RAM total, 1Gb (of which about 650Mb is free)
 
 A collection of projects that might be interesting to run on a router
 
-### Proxy:
-- [Nginx](https://github.com/nginx/nginx)
-- [Nginx Proxy Manager](https://github.com/NginxProxyManager/nginx-proxy-manager)
-- [Traefik](https://github.com/traefik/traefik)
-- [Caddy](https://github.com/caddyserver/caddy)
+### Nginx
+Is a web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache.
+- **Github:** https://github.com/nginx/nginx 
+- **Docker Hub:** https://hub.docker.com/_/nginx
+- **RAM:** 
+
+### Nginx Proxy Manager
+Docker container and built in Web Application for managing Nginx proxy hosts with a simple, powerful interface, providing free SSL support via Let's Encrypt.
+- **Github:** https://github.com/NginxProxyManager/nginx-proxy-manager
+- **Docker Hub:** https://hub.docker.com/r/jc21/nginx-proxy-manager
+- **RAM:** 
+
+### Traefik
+Modern HTTP reverse proxy and load balancer that makes deploying microservices easy.
+- **Github:** https://github.com/traefik/traefik
+- **Docker Hub:** https://hub.docker.com/_/traefik
+- **RAM:** 
+
+### Caddy
+Powerful, enterprise-ready, open source web server with automatic HTTPS written in Go.
+- **Github:** https://github.com/caddyserver/caddy
+- **Docker Hub:** https://hub.docker.com/_/traefik
+- **RAM:** 
+
+### Mikrotik Proxy Manager
+container in RouterOS for managing proxy hosts via winbox
+- **Github:** https://github.com/akmalovaa/mikrotik-proxy-manager
+- **Docker Hub:** https://hub.docker.com/r/akmalovaa/mikrotik-proxy-manager
+- **RAM:** 120
+
 
 ### Network:
 - [Cloudflared](https://github.com/cloudflare/cloudflared)
@@ -36,15 +61,24 @@ A collection of projects that might be interesting to run on a router
 - [Openspeedtest](https://github.com/openspeedtest/Speed-Test)
 
 
+## Guide
 
-## INFO
+Registry URL
+```shell
+/container/config/set registry-url=https://registry-1.docker.io tmpdir=/usb1/tmp
+```
+
+### Example commands:
+Start blank nginx
+```shell
+/container/add remote-image=nginx:latest interface=veth1 root-dir=usb1/docker/nginx logging=yes
+```
+
+
+## Info
 
 > [!NOTE]  
 > External disk is highly recommended (formatting USB on ext4)
-
-![usb-mikrotik](https://akmalov.com/assets/images/mikrotik-usb-af1bf381a7e61ad2f2f9e498edf730df.jpg)
-
-![usb-mikrotik-2](https://akmalov.com/assets/images/mikrotik-usb-disk-1fba13d2e18c6927ffc0e71ac9dc181d.png)
 
 
 > [!WARNING]  
