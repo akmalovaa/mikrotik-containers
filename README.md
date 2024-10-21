@@ -17,36 +17,12 @@ RAM total - 1Gb (of which about 650Mb is free)
 
 A collection of projects that might be interesting to run on a router
 
-### Nginx
-Is a web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache.
-- **Github:** https://github.com/nginx/nginx 
-- **Docker Hub:** https://hub.docker.com/_/nginx
-- **RAM:** 
-
-### Nginx Proxy Manager
-Docker container and built in Web Application for managing Nginx proxy hosts with a simple, powerful interface, providing free SSL support via Let's Encrypt.
-- **Github:** https://github.com/NginxProxyManager/nginx-proxy-manager
-- **Docker Hub:** https://hub.docker.com/r/jc21/nginx-proxy-manager
-- **RAM:** 
-
-### Traefik
-Modern HTTP reverse proxy and load balancer that makes deploying microservices easy.
-- **Github:** https://github.com/traefik/traefik
-- **Docker Hub:** https://hub.docker.com/_/traefik
-- **RAM:** 
-
-### Caddy
-Powerful, enterprise-ready, open source web server with automatic HTTPS written in Go.
-- **Github:** https://github.com/caddyserver/caddy
-- **Docker Hub:** https://hub.docker.com/_/traefik
-- **RAM:** 
-
-### Mikrotik Proxy Manager
-container in RouterOS for managing proxy hosts via winbox
-- **Github:** https://github.com/akmalovaa/mikrotik-proxy-manager
-- **Docker Hub:** https://hub.docker.com/r/akmalovaa/mikrotik-proxy-manager
-- **RAM:** 120
-
+### Proxy:
+- [Nginx](https://github.com/nginx/nginx )
+- [Nginx Proxy Manager](https://github.com/NginxProxyManager/nginx-proxy-manager)
+- [Traefik](https://github.com/traefik/traefik)
+- [Caddy](https://github.com/caddyserver/caddy)
+- [Mikrotik Proxy Manager](https://github.com/akmalovaa/mikrotik-proxy-manager) | 120
 
 ### Network:
 - [Cloudflared](https://github.com/cloudflare/cloudflared)
