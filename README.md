@@ -33,6 +33,10 @@ A collection of projects that might be interesting to run on a router
 - [AdGuardHome](https://github.com/AdguardTeam/AdGuardHome)
 - [Blocky](https://github.com/0xERR0R/blocky)
 
+### Observability:
+- [MKTXP Prometheus Exporter](https://github.com/akpw/mktxp)
+- [SNMP Prometheus Exporter](https://github.com/prometheus/snmp_exporter)
+
 ### Misc:
 - [Openspeedtest](https://github.com/openspeedtest/Speed-Test)
 
