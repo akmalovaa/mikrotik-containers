@@ -40,7 +40,7 @@ Useful links:
 ### Proxy
 
 | Name | Description | Repository | CPU Load | RAM (MB) |
-|------|-------------|------------|----------|----------|
+|------|-------------|------------|:--------:|:--------:|
 | **Nginx** | High-performance web server and reverse proxy | [nginx/nginx](https://github.com/nginx/nginx) | 🟢 | ~15 |
 | **Nginx Proxy Manager** | User-friendly web interface for managing Nginx proxy with SSL | [NginxProxyManager/nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager) | 🟡 | ~ |
 | **Traefik** | Modern reverse proxy with automatic service discovery | [traefik/traefik](https://github.com/traefik/traefik) | 🟢 | ~125 |
@@ -50,14 +50,14 @@ Useful links:
 ### Network
 
 | Name | Description | Repository | CPU Load | RAM (MB) |
-|------|-------------|------------|----------|----------|
+|------|-------------|------------|:--------:|:--------:|
 | **Cloudflared** | Cloudflare tunnel for secure access to local services | [cloudflare/cloudflared](https://github.com/cloudflare/cloudflared) | 🟢 | ~ |
 | **Freeradius-server** | RADIUS server for network device authentication | [FreeRADIUS/freeradius-server](https://github.com/FreeRADIUS/freeradius-server) | 🟢 | ~ |
 
 ### DNS
 
 | Name | Description | Repository | CPU Load | RAM (MB) |
-|------|-------------|------------|----------|----------|
+|------|-------------|------------|:--------:|:--------:|
 | **Pi-hole** | DNS-level ad blocker with web interface | [pi-hole/docker-pi-hole](https://github.com/pi-hole/docker-pi-hole) | 🟢 | ~ |
 | **AdGuardHome** | Modern Pi-hole alternative with advanced features | [AdguardTeam/AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) | 🟢 | ~80 |
 | **Blocky** | Fast DNS proxy with ad blocking and caching | [0xERR0R/blocky](https://github.com/0xERR0R/blocky) | 🟢 | ~ |
@@ -65,14 +65,14 @@ Useful links:
 ### Observability
 
 | Name | Description | Repository | CPU Load | RAM (MB) |
-|------|-------------|------------|----------|----------|
+|------|-------------|------------|:--------:|:--------:|
 | **MKTXP Prometheus Exporter** | MikroTik metrics exporter for Prometheus monitoring | [akpw/mktxp](https://github.com/akpw/mktxp) | ⚪ | ~ |
 | **SNMP Prometheus Exporter** | Universal SNMP exporter for metrics collection | [prometheus/snmp_exporter](https://github.com/prometheus/snmp_exporter) | ⚪ | ~ |
 
 ### Misc
 
 | Name | Description | Repository | CPU Load | RAM (MB) |
-|------|-------------|------------|----------|----------|
+|------|-------------|------------|:--------:|:--------:|
 | **Librespeed** | Self-hosted speed test server | [librespeed/speedtest-rust](https://github.com/librespeed/speedtest-rust) | 🟡 | ~10 |
 
 
