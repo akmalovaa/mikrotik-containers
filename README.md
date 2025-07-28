@@ -69,6 +69,13 @@ Useful links:
 | **MKTXP Prometheus Exporter** | MikroTik metrics exporter for Prometheus monitoring | [akpw/mktxp](https://github.com/akpw/mktxp) | ⚪ | ~ |
 | **SNMP Prometheus Exporter** | Universal SNMP exporter for metrics collection | [prometheus/snmp_exporter](https://github.com/prometheus/snmp_exporter) | ⚪ | ~ |
 
+### Security
+
+| Name | Description | Repository | CPU Load | RAM (MB) |
+|------|-------------|------------|:--------:|:--------:|
+| **CrowdSec** | Self-hosted security automation and incident response | [crowdsecurity/crowdsec](https://github.com/crowdsecurity/crowdsec) | ⚪ | ~ |
+
+
 ### Misc
 
 | Name | Description | Repository | CPU Load | RAM (MB) |
@@ -78,3 +85,8 @@ Useful links:
 
 Write me your containers in Telegram that you found interesting, I'll try to launch them and add them to this list too.
 
+
+## TO DO:
+
+- Need more information and testing - ⚪ **Unknown status containers**
+- Add more projects to the list
