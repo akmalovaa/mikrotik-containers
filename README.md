@@ -1,17 +1,23 @@
 # Mikrotik containers
 
-MikroTik's implementation of Linux containers [RouterOS](https://help.mikrotik.com/docs/display/ROS/Container)
+Main RouterOS wiki - https://help.mikrotik.com/docs/display/ROS/Container
 
-> Container package is compatible with arm arm64 and x86 architectures.
+The ability to run containers on MikroTik routers opens up many possibilities—now, the only limits are your imagination and the device's resources.
 
-There is a device for tests **Mikrotik hap ax3**:
-- Architecture: ARM 64bit
-- CPU: IPQ-6010, 4 core, (864 - 1800) MHz
-- Size of RAM: 1 GB
-- Storage size: 128 MB
+If you decide to experiment with containers at homelab, it is recommended to choose devices with:
 
-RAM total - 1Gb (of which about 650Mb is free)
+- ARM64
+- RAM > 1 GB
 
+or use a **CHR VM**
+
+At the moment, the most interesting models for homelab are:
+
+- hap ax2 (There is no USB port, you need to use a network drive)
+- hap ax3
+- RB5009
+
+[mikrotik cpu comparison](https://github.com/akmalovaa/mikrotik-containers/blob/main/benchmark_cpu.md)
 
 ## Collection of containers for RouterOS
 
