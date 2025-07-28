@@ -60,7 +60,6 @@ use the appropriate registry by writing the full name of the container path
 
 `mirror.gcr.io` + `traefik:3.5.0` result: `mirror.gcr.io/traefik:3.5.0`
 
-- 
 
 ### Example commands
 
@@ -69,14 +68,22 @@ Start blank nginx
 /container/add remote-image=nginx:latest interface=veth1 root-dir=usb1/docker/nginx logging=yes
 ```
 
-python image for debug and shell exec
+Python shell exec example
+
+download python image and configure
 ```
-# download python image and configure
 /container/add remote-image=mirror.gcr.io/python:3.13.5-slim interface=veth1 root-dir=docker/python logging=yes cmd="tail -f /dev/null"
-# run container
+```
+
+run container
+```
 /container/start nuber=X
-# exec shell
+```
+
+exec shell
+```
 /container/shell number=X
 ```
+
 ![guide_shell](./images/guide_shell.png)
 
