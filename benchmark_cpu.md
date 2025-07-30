@@ -116,7 +116,7 @@ The leading device with performance 52% higher than the HAP AX3, but also 58% mo
 Decent results with a good price-to-performance ratio.
 
 ### HAP AX2 (IPQ-6010)
-Although the HAP AX2 has the same IPQ-6010 processor as the HAP AX3, its performance is significantly lower. It shows about 48% of the HAP AX3 performance in single-threaded mode and about 48% in multi-threaded mode. This may be related to lower clock frequencies or power limitations. Despite this, thanks to its low price ($99), it offers an acceptable price-to-performance ratio for basic tasks. However, the lack of a USB port makes it less attractive and there is no particular point in buying this device for running containers.
+It has the same CPU but absolutely not the same performance as the ax³ IPQ-6010. Due to the smaller form factor the ax² is worse at dissipating heat, so the CPU clock is limited to the base frequency, while the ax³ can boost to 1800MHz. It shows about 48% of the HAP AX3 performance in single-threaded mode and about 48% in multi-threaded mode. Despite this, thanks to its low price ($99), it offers an acceptable price-to-performance ratio for basic tasks. However, the lack of a USB port makes it less attractive and there is no particular point in buying this device for running containers.
 
 ### CHR VPS (x86_64)
 
