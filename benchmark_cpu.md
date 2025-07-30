@@ -46,6 +46,19 @@ threads: 4
 sysbench: CPU speed: 3347.89 events per second
 ```
 
+### HAP AX2 - CPU IPQ-6010
+
+sysbench
+```log
+threads: 1
+sysbench: CPU speed: 401.24 events per second
+```
+```log
+threads: 4
+sysbench: CPU speed: 1602.72 events per second
+```
+
+
 ### CHR VPS Red Hat KVM x86_64
 
 I have an old cheap VPS from a cloud provider where CHR was launched a few years ago, it still works without problems or crashes, so I decided to test it as well.
@@ -69,11 +82,13 @@ sysbench: CPU speed: 2483.32 events per second
 | **CHR VPS (KVM)** | x86_64 | - | **2492** | 100% |
 | **RB5009UG+S+IN** | 88F7040 | 350-1400 MHz | **1276** | 51% |
 | **HAP AX3** | IPQ-6010 | 864-1800 MHz | **841** | 34% |
+| **HAP AX2** | IPQ-6010 | 864-1800 MHz | **401** | 16% |
 
 ```
 CHR VPS (x86_64)    ████████████████████    2492 events/sec
 RB5009 (88F7040)    ██████████▍             1276 events/sec
 HAP AX3 (IPQ-6010)  ██████▾                 841 events/sec
+HAP AX2 (IPQ-6010)  ███▏                    401 events/sec
 ```
 
 ## CPU performance comparison (multi-threaded mode)
@@ -83,11 +98,13 @@ HAP AX3 (IPQ-6010)  ██████▾                 841 events/sec
 | **RB5009UG+S+IN** | 88F7040 | 350-1400 MHz | **5093** | 100% |
 | **HAP AX3** | IPQ-6010 | 864-1800 MHz | **3348** | 66% |
 | **CHR VPS (KVM)** | x86_64 | - | **2483** | 49% |
+| **HAP AX2** | IPQ-6010 | 864-1800 MHz | **1603** | 31% |
 
 ```
 RB5009 (88F7040)    ████████████████████    5093 events/sec
 HAP AX3 (IPQ-6010)  █████████████▎          3348 events/sec
 CHR VPS (x86_64)    █████████▾              2483 events/sec
+HAP AX2 (IPQ-6010)  ██████▎                 1603 events/sec
 ```
 
 ## Conclusions
@@ -99,7 +116,7 @@ The leading device with performance 52% higher than the HAP AX3, but also 58% mo
 Decent results with a good price-to-performance ratio.
 
 ### HAP AX2 (IPQ-6010)
-Since the HAP AX2 model has an identical processor, it offers the best price-to-performance ratio. However, keep in mind that there is no USB port, so for container operations you will need to configure separate network storage.
+Although the HAP AX2 has the same IPQ-6010 processor as the HAP AX3, its performance is significantly lower. It shows about 48% of the HAP AX3 performance in single-threaded mode and about 48% in multi-threaded mode. This may be related to lower clock frequencies or power limitations. Despite this, thanks to its low price ($99), it offers an acceptable price-to-performance ratio for basic tasks. However, the lack of a USB port makes it less attractive and there is no particular point in buying this device for running containers.
 
 ### CHR VPS (x86_64)
 
