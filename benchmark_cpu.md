@@ -6,7 +6,7 @@
 | **Architecture** | ARM 64bit | ARM 64bit | ARM 64bit |
 | **CPU** | 88F7040 | IPQ-6010 | IPQ-6010 |
 | **CPU core count** | 4 | 4 | 4 |
-| **CPU nominal frequency** | 350-1400 MHz | 864 - 1800 MHz | 864 - 1800 MHz |
+| **CPU nominal frequency** | 350-1400 MHz | 864 - 1800 MHz | 864 MHz |
 | **Size of RAM** | 1 GB | 1 GB | 1 GB |
 | **Storage size** | 1 GB | 128 MB | 128 MB |
 | **IPsec hardware acceleration** | Yes | Yes | Yes |
@@ -82,7 +82,7 @@ sysbench: CPU speed: 2483.32 events per second
 | **CHR VPS (KVM)** | x86_64 | - | **2492** | 100% |
 | **RB5009UG+S+IN** | 88F7040 | 350-1400 MHz | **1276** | 51% |
 | **HAP AX3** | IPQ-6010 | 864-1800 MHz | **841** | 34% |
-| **HAP AX2** | IPQ-6010 | 864-1800 MHz | **401** | 16% |
+| **HAP AX2** | IPQ-6010 | 864 MHz MHz | **401** | 16% |
 
 ```
 CHR VPS (x86_64)    ████████████████████    2492 events/sec
@@ -98,7 +98,7 @@ HAP AX2 (IPQ-6010)  ███▏                    401 events/sec
 | **RB5009UG+S+IN** | 88F7040 | 350-1400 MHz | **5093** | 100% |
 | **HAP AX3** | IPQ-6010 | 864-1800 MHz | **3348** | 66% |
 | **CHR VPS (KVM)** | x86_64 | - | **2483** | 49% |
-| **HAP AX2** | IPQ-6010 | 864-1800 MHz | **1603** | 31% |
+| **HAP AX2** | IPQ-6010 | 864 MHz | **1603** | 31% |
 
 ```
 RB5009 (88F7040)    ████████████████████    5093 events/sec
@@ -116,7 +116,9 @@ The leading device with performance 52% higher than the HAP AX3, but also 58% mo
 Decent results with a good price-to-performance ratio.
 
 ### HAP AX2 (IPQ-6010)
-It has the same CPU but absolutely not the same performance as the ax³ IPQ-6010. Due to the smaller form factor the ax² is worse at dissipating heat, so the CPU clock is limited to the base frequency, while the ax³ can boost to 1800MHz. It shows about 48% of the HAP AX3 performance in single-threaded mode and about 48% in multi-threaded mode. Despite this, thanks to its low price ($99), it offers an acceptable price-to-performance ratio for basic tasks. However, the lack of a USB port makes it less attractive and there is no particular point in buying this device for running containers.
+It has the same processor as the ax3 IPQ-6010, but the performance is much lower, due to the smaller form factor, the ax2 dissipates heat worse, so the processor's clock speed is limited, while the ax3 can reach 1800 MHz. 
+
+It shows approximately 48% performance of the HAP AX3 + the lack of a USB port makes it less attractive, and there's not much point in buying this device to work with containers.
 
 ### CHR VPS (x86_64)
 
