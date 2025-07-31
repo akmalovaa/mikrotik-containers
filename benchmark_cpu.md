@@ -11,8 +11,8 @@
 | **Storage size** | 1 GB | 128 MB | 128 MB |
 | **IPsec hardware acceleration** | Yes | Yes | Yes |
 | **Suggested price** | $219.00 | $139.00 | $99.00 |
-| **Sysbench single thread** | ~1276 | ~841 | ~841 |
-| **Sysbench multi thread** | ~5093 | ~3348 | ~3348 |
+| **Sysbench single thread** | ~1276 | ~841 | ~401 |
+| **Sysbench multi thread** | ~5093 | ~3348 | ~1603 |
 
 I will use a container with sysbench:
 - --test=cpu --threads=1
